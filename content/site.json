@@ -1,0 +1,183 @@
+{
+  "people": [
+    {
+      "slug": "todd",
+      "name": "Todd Segress",
+      "role": "Director of Tribal Relations",
+      "bio": "Todd Segress serves as Director of Tribal Relations and Co-Owner of WMIE. His background spans telecommunications, fiber construction, infrastructure development, tribal engagement, and regional growth strategy.",
+      "width": 561,
+      "height": 740
+    },
+    {
+      "slug": "janie",
+      "name": "Janie Meadows",
+      "role": "CEO",
+      "bio": "Janie Meadows is CEO and Co-Owner of WMIE. Her work includes commercial insurance strategy, surety bonding, contract requirements, and infrastructure project readiness.",
+      "width": 600,
+      "height": 733
+    },
+    {
+      "slug": "david",
+      "name": "David Stephens",
+      "role": "Insurance & Risk Management",
+      "bio": "David Stephens is a Co-Owner of WMIE. His work includes commercial insurance, risk management, and sales support for business and infrastructure opportunities.",
+      "width": 600,
+      "height": 733
+    }
+  ],
+  "services": [
+    {
+      "path": "/services/business-development/",
+      "name": "Business Development",
+      "description": "Sales development, proposal positioning, and marketing alignment for companies pursuing new business and infrastructure opportunities.",
+      "lead": "Make complex opportunities easier to explain—and easier for the right partners to understand.",
+      "sections": [
+        [
+          "Sales development with a clear message",
+          "WMIE supports companies preparing for business conversations, outreach, and proposal presentations. The work connects sales development with message alignment so that a prospective customer or partner can understand the organization’s role, the opportunity being discussed, and the next step.",
+          "Positioning for a new opportunity should start with what the company actually delivers. WMIE’s approach centers on clear communication and practical preparation, with established experience in telecommunications and infrastructure."
+        ],
+        [
+          "Where WMIE can help",
+          [
+            "Proposal positioning and presentation structure",
+            "Sales process and outreach strategy support",
+            "Brand and message alignment",
+            "Partner-ready decks, summaries, and communication"
+          ]
+        ],
+        [
+          "Useful starting information",
+          "Bring a description of your company, the opportunity you want to pursue, your intended customers or partners, and the material you already use. A conversation can establish whether the need is primarily messaging, sales development, stakeholder alignment, or specialist support.",
+          "WMIE provides strategic support; an engagement’s scope and deliverables should be agreed before work begins. A discussion does not guarantee a contract, sale, grant, or award."
+        ]
+      ]
+    },
+    {
+      "path": "/services/strategic-partnerships/",
+      "name": "Strategic Partnerships",
+      "description": "Corporate relationships, partner engagement, and bandwidth-sales opportunity support with clear roles and communication.",
+      "lead": "Build alignment between the organizations an opportunity depends on.",
+      "sections": [
+        [
+          "Relationships with a practical purpose",
+          "WMIE helps organizations prepare for conversations with corporate stakeholders, regional leaders, and expansion partners. Partnership support focuses on communication, opportunity development, and understanding how each organization fits into the work.",
+          "Telecommunications and infrastructure initiatives often involve several independent companies. A shared understanding of responsibilities helps a business discussion move forward without confusing strategic coordination with delivery of a specialist service."
+        ],
+        [
+          "Partnership support",
+          [
+            "Corporate relationship strategy and partner engagement",
+            "Communication structure for expansion opportunities",
+            "Bandwidth-sales relationship and opportunity support",
+            "Coordination with relevant technical or commercial partners"
+          ]
+        ],
+        [
+          "Bandwidth partnerships and service delivery",
+          "WMIE supports bandwidth-sales opportunities while partner companies handle delivery and operations. A provider’s coverage, service terms, and operational capabilities must be confirmed directly with that provider.",
+          "WMIE does not present itself as the company operating a customer’s bandwidth service. Share the type of opportunity, location, organizations involved, and required capacity or timeline so the discussion can be directed appropriately."
+        ],
+        [
+          "Explore an opportunity",
+          "A partnership inquiry should explain what each party can contribute, the outcome sought, and any existing relationships. WMIE can discuss strategic support and partner communication without implying a joint venture has already been formed or promising an introduction will result in a deal."
+        ]
+      ]
+    },
+    {
+      "path": "/services/infrastructure/",
+      "name": "Infrastructure Opportunities",
+      "description": "Strategic support for telecommunications and broadband expansion, engineering referrals, and funded-project readiness.",
+      "lead": "Connect business readiness, stakeholder relationships, and specialist support around an infrastructure opportunity.",
+      "sections": [
+        [
+          "Telecommunications and broadband experience",
+          "WMIE’s existing work centers on broadband-related opportunities, telecommunications expansion, and infrastructure development. Support includes positioning, partner engagement, and readiness conversations for regional expansion and funded initiatives.",
+          "For companies pursuing BEAD, USDA-related, or other public-sector opportunities, the project’s actual requirements should guide the discussion. Program eligibility, deadlines, and obligations must be checked against the current administering agency’s material."
+        ],
+        [
+          "Strategic readiness support",
+          [
+            "Organizational positioning and partner communication",
+            "Coordination around bid or project-readiness needs",
+            "Connections to engineering support through referral pathways",
+            "Insurance and bonding conversations relevant to the opportunity"
+          ]
+        ],
+        [
+          "Engineering is delivered separately",
+          "WMIE does not perform engineering work. Technical planning, design, and other licensed engineering services are handled by the relevant engineering provider under a separately agreed scope. WMIE’s role is strategic coordination and referral support.",
+          "This distinction lets a prospective client understand who is responsible for technical deliverables and which needs belong in a conversation with an engineer."
+        ],
+        [
+          "Start with the project context",
+          "Include the project location, current stage, expected partners, intended infrastructure, and timeline. If the project has a bid document or funding requirement, describe it in your inquiry. Avoid sending confidential financial records through an initial contact form.",
+          "WMIE does not guarantee funding, engineering outcomes, bid success, or contract awards."
+        ]
+      ]
+    },
+    {
+      "path": "/services/insurance-bonding/",
+      "name": "Insurance & Bonding Coordination",
+      "description": "Commercial risk-readiness conversations and coordination around infrastructure insurance and surety bonding requirements.",
+      "lead": "Clarify the commercial risk questions that need attention before an opportunity moves forward.",
+      "sections": [
+        [
+          "Readiness before commitments",
+          "WMIE helps organizations discuss commercial insurance strategy, surety bonding requirements, builder’s risk considerations, and coverage needs associated with business and infrastructure opportunities.",
+          "The focus is on readiness and coordination: understanding which questions must be addressed and connecting the discussion to the appropriate specialist. Project documents and contractual requirements determine what needs review."
+        ],
+        [
+          "Topics for a readiness conversation",
+          [
+            "Commercial insurance and project-related risk considerations",
+            "Surety bond requirements for a specific opportunity",
+            "Builder’s risk questions associated with infrastructure work",
+            "Coordination of requirements for public-sector or funded projects"
+          ]
+        ],
+        [
+          "Specialist services and approvals",
+          "Insurance placement, underwriting, coverage decisions, and bond issuance must be handled by appropriately authorized providers. WMIE’s website does not represent WMIE as an insurer, underwriter, licensed insurance brokerage, or surety issuing company.",
+          "The team’s commercial insurance and risk-management expertise informs the conversation. Any provider relationship, licensing jurisdiction, policy, or bond arrangement must be confirmed before relying on it."
+        ],
+        [
+          "What to share initially",
+          "Tell us your company type, the project or contract involved, the location, and the insurance or bonding question. Do not upload financial statements, identification documents, or sensitive underwriting information through the initial inquiry.",
+          "No conversation or referral guarantees coverage, bonding approval, contract compliance, or an award. A specialist must review the actual documents and requirements."
+        ]
+      ]
+    },
+    {
+      "path": "/services/tribal-government-relations/",
+      "name": "Tribal & Corporate Relations",
+      "description": "Relationship and communication support involving tribal governments, corporate stakeholders, and regional expansion partners.",
+      "lead": "Prepare for stakeholder conversations with respect, clarity, and an understanding of each organization’s role.",
+      "sections": [
+        [
+          "A specialized relationship capability",
+          "Tribal relations are one part of WMIE’s broader strategic partnerships and business-development work. WMIE supports organizations preparing for conversations with tribal governments, corporate stakeholders, regional leaders, and expansion partners.",
+          "The objective is practical alignment around the opportunity being discussed. Corporate and tribal organizations bring their own priorities and decision-making processes; clear communication helps parties understand where those priorities meet."
+        ],
+        [
+          "Support within the established scope",
+          [
+            "Partner engagement and communication planning",
+            "Tribal relationship support and project alignment",
+            "Corporate relations strategy for regional expansion",
+            "Coordination of stakeholder conversations around infrastructure opportunities"
+          ]
+        ],
+        [
+          "Public-sector boundaries",
+          "WMIE’s relationship support does not establish authority to speak for a tribe, government agency, or public official. This site does not claim lobbying, legal advice, government representation, or procurement decision-making services.",
+          "Specific public-sector engagement needs should be discussed and scoped separately. An inquiry should identify the organization, opportunity, location, parties involved, and any existing relationships."
+        ],
+        [
+          "Connected to wider business goals",
+          "If the opportunity also involves proposal positioning, infrastructure readiness, bandwidth partnerships, or commercial risk requirements, those needs can be discussed alongside stakeholder alignment. WMIE’s positioning remains broader than tribal relations alone."
+        ]
+      ]
+    }
+  ]
+}
