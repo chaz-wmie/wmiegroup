@@ -1,0 +1,10 @@
+{
+  "name": "wmiegroup",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "python3 scripts/validate.py",
+    "test": "npm run build && npm run check"
+  }
+}
