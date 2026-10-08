@@ -1,96 +1,105 @@
-# WMIE Group ownership and SEO review
+# WMIE Group — modernization, ownership, positioning and SEO
 
-Audit date: October 8, 2026. Base commit: `bd3f56ced54a423693e59b0769cefb414eabf7d2`.
-Branch: `update/ownership-seo-2026-10-08`. Production is unchanged. This report describes proposed source changes, not a deployed result.
+October 8, 2026. Original main: `bd3f56ced54a423693e59b0769cefb414eabf7d2`. The owner authorized completion and publishing through GitHub main. Netlify sign-in could not complete because the Google email verification code was unavailable; GitHub publishing remains separately available.
 
-## Verified business and platform
+## Verified business model and positioning
 
-The live homepage exactly matched `main:index.html` at audit time. WMIE expands to Wholesale Management & Infrastructure Expansion. The existing homepage identifies it as Oklahoma-based strategic support for broadband and infrastructure opportunities, including tribal/corporate relations, sales development/marketing, engineering referrals, commercial insurance/surety bond guidance, and bandwidth partnerships. Target visitors described by the content are organizations pursuing broadband infrastructure, funded initiatives, and regional expansion. The site does not establish an exact service territory, street address, phone, license jurisdictions, or legal entity name. No additional geography or credentials were added.
+The original live homepage exactly matched main. It established Oklahoma-based strategic support in telecommunications/broadband, infrastructure readiness, sales development/marketing, corporate and tribal relationships, commercial insurance/surety guidance, engineering referral coordination, and bandwidth partnerships. It did not establish a public address, phone, exact geographic territory, named clients, awards, or the licensing status of WMIE itself.
 
-Live HTTPS response: 200 with `server: Netlify`, `cache-status: Netlify Edge`, and an `x-nf-request-id`. The README identifies Netlify project `wmie`. HTTP and www both resolve to the HTTPS apex homepage. Netlify hosting is confirmed; its dashboard settings, connected repository, production branch, and deployment mechanism have not been inspected. GitHub main has no recorded checks or status contexts. The repository has no framework, package dependencies, prior build/test scripts, backend, form handler, or CI workflow; it is a static HTML site with inline CSS/JavaScript. The search engine's older cached content mentions a form and additional services that are absent from both the current live site and repository; that cached material was not used to expand business claims.
+The attachment confirms co-owners **Todd Segress**, **Janie Meadows**, and **David Stephens**, retaining Janie's **CEO** designation, Todd's **Director of Tribal Relations** title, and David's insurance/risk-management expertise. These supersede the earlier first-name-only request. All three existing photographs are reused. Current public HTML and deployed assets contain no Jayna reference. Original assets and Git history remain preserved as source-only records.
 
-## Ownership changes
+Positioning implemented: **Strategic Partnerships. Business Development. Infrastructure Opportunities.** The homepage presents WMIE as a business-development and strategic-partnerships firm with established telecom/infrastructure/commercial risk expertise. Tribal relations is a specialized capability, not the whole company. The brand, logo, photos, dark blue/warm palette, “We Make It Easy,” and current contact/social links remain.
 
-- Removed Jayna's visible card, biography, email, and LinkedIn links from current website HTML.
-- Todd Segress, Janie, and David each have the exact title **Co-Owner** in the team section and organization schema.
-- Preserved the three existing photographs as optimized derivatives, with updated alt text.
-- Replaced the mouse-only profile modal with native expandable profiles that work with a keyboard and without JavaScript. Short responsibilities are derived only from the old site; no new credentials or biographies were invented. Older titles and last names for Janie/David are not presented as the new approved identity.
-- Original photographs, unused historical assets, and Git history remain in the repository. The deployment build uses an explicit allowlist that excludes those assets, documentation, and internal files. Public source history is not erased.
+Direct work is clearly described as business positioning, outreach/proposal communication, partner engagement, and readiness coordination. Engineering work belongs to engineering providers; bandwidth operations to providers; insurance placement/underwriting and bond issuance to authorized specialists. No licensed engineering, insurer/brokerage status, legal advice, lobbying, government representation, client affiliation, grant success, or contract guarantees are claimed for WMIE. Unverified Strive affiliation/licensing claims are not repeated.
+
+## Industry research and prioritized opportunities
+
+These rankings are strategic inferences from service fit and current primary-source evidence, not measured revenue forecasts. No client pipeline, fee schedule, conversion data, search-volume database, or utilization data is available.
+
+| Priority | Market / buyer | Demand signal and service fit | Revenue hypothesis / gate |
+|---|---|---|---|
+| 1 | Broadband providers and telecom infrastructure companies | Oklahoma's April 22, 2026 BEAD approval describes 24 provider awardees and $574M total planned deployment investment. Existing team telecom/partner/readiness experience aligns directly. | Scope a paid positioning/readiness project or defined partner-development engagement; verify buyer need, budget and procurement requirements. |
+| 2 | Infrastructure contractors and project organizations | SBA explains that public/private contracts often require surety bonds. Existing commercial-risk and project-readiness capabilities support specialist coordination. | A well-scoped readiness engagement is plausible; licensed placement or paid referrals require verified appropriate arrangements. |
+| 3 | Corporate partnership and sales-development needs | Existing WMIE services cover outreach, decks, messaging and corporate alignment. Comparable telecom advisors explicitly describe commercial strategy and partner development. | Test bounded paid deliverables before open-ended retainers; broader cross-industry expertise is not established. |
+| 4 | Rural/community broadband stakeholders and public-project partners | USDA Telecom Programs includes rural deployment and technical-assistance programs with varied eligibility. Tribal/regional communication is an established specialization. | Pursue a specific organizational/project fit; do not imply eligibility, agency representation or a guaranteed award. |
+| 5 | Utilities/energy, commercial real estate, manufacturing/industrial, economic development | Adjacent partner/readiness needs may fit, but WMIE sector-specific delivery experience is unverified. | Discovery/pilot only after capability and buyer-demand checks. These are not published as established industries served. |
+| 6 | Transportation/logistics | General partnership work could transfer, but current evidence provides little competitive advantage. | Defer until an actual opportunity or qualified partner demonstrates a fit. |
+
+Joint ventures are a potential partnership structure, not an existing WMIE service or promised transaction outcome. Government contracting readiness is a bounded coordination opportunity, not grant writing, certification, legal representation, or an award guarantee.
+
+Current context: the most recent NTIA search retrieval describes all 56 final proposals approved and 55 NIST approvals; older search caches returned differing milestone counts. Treat this as dated program context and recheck the primary dashboard before a transaction or public program-specific article. The Oklahoma primary announcement verifies its April approval, not the current status of every awardee. USDA's live program page establishes ReConnect loans/grants and technical-assistance programs but does not confirm a currently open application window. SBA's live page describes guarantees for certain bid/performance/payment bonds; WMIE participation was not established.
+
+Sources reviewed:
+- https://oklahoma.gov/broadband/office/newsroom/ntia-approves-bead-grant-program-for-oklahoma.html
+- https://oklahoma.gov/broadband.html
+- https://www.ntia.gov/funding-programs/internet-all/broadband-equity-access-and-deployment-bead-program/progress-dashboard (search retrieval; direct fetch returned 403)
+- https://www.rd.usda.gov/programs-services/telecommunications-programs
+- https://www.sba.gov/loans/additional-funding-opportunities/surety-bonds/
+- https://www.ringadvise.com/
+- https://aptelecom.com/solution/commercial/
+- https://www.turtleislandcom.com/services/
+
+Competitor intent: Ring Strategic Partners and APTelecom associate digital infrastructure with commercialization and partnerships; TICOM associates tribal broadband with engineering. WMIE should present its business-development/coordination niche clearly without copying competitors' engineering, global delivery, or transaction expertise. Broad “business development consulting” is competitive and ambiguous; telecom-specific opportunity and partner terms are a more relevant initial test.
+
+## Architecture and keyword map
+
+Static HTML pages use unique titles/descriptions, one H1, semantic headings, root-relative internal links, apex canonicals, shared CSS and complete social metadata. Eleven URLs are indexable; the acknowledgment and 404 pages are noindex. Service pages have distinct scope, deliverables/topics, direct-versus-partner boundaries and inquiry guidance rather than duplicate location templates.
+
+| URL | Primary intent / candidate terms |
+|---|---|
+| `/` | WMIE Group; strategic partnerships and business development |
+| `/about/` | WMIE business model; corporate growth and partner support |
+| `/services/` | Business development and strategic partnership services |
+| `/services/business-development/` | Telecommunications business development; sales-development support; proposal positioning |
+| `/services/strategic-partnerships/` | Strategic partnership support; corporate relations; bandwidth-sales partnerships |
+| `/services/infrastructure/` | Broadband infrastructure readiness; infrastructure opportunity development; engineering referrals |
+| `/services/insurance-bonding/` | Commercial risk readiness; infrastructure insurance coordination; surety requirements |
+| `/services/tribal-government-relations/` | Tribal and corporate partnership support; stakeholder engagement |
+| `/industries/` | WMIE established telecommunications/infrastructure industry focus |
+| `/leadership/` | Todd Segress; Janie Meadows; David Stephens; WMIE co-owners |
+| `/contact/` | Contact WMIE; discuss a business opportunity |
+
+Keywords are relevance/search-intent candidates, not confirmed volume, difficulty or ranking results. Government contracting readiness and contractor bonding requirements require stronger scope evidence and specialist-reviewed content before aggressively targeting them. No speculative city pages were created; “Oklahoma-based” is a location fact, not a claim of statewide/nationwide coverage.
 
 ## Before and after
 
-| Priority / finding | Before | Proposed result |
+| Finding | Original | Implemented |
 |---|---|---|
-| P0 ownership | Four profiles including Jayna; inconsistent ownership titles | Three consistent co-owner profiles; no Jayna references or assets in `dist` |
-| P1 content access | Fixed slide layout, desktop overflow hidden, inactive mobile sections display none | All ten sections in normal document flow, usable without runtime JavaScript |
-| P1 navigation | Buttons and click handlers; no link destinations or section URLs | Native section anchors, main/nav/footer landmarks, skip link, visible keyboard focus |
-| P1 canonical | Missing; `/index.html` returns a duplicate 200 | Apex canonical plus proposed Netlify `/index.html` 301 |
-| P1 sitemap / robots | Both return 404 | Valid single-URL XML sitemap and permissive robots with sitemap reference |
-| P2 titles and headings | Brand/tagline title; vague service headings; H1 to H3 jump | Service-focused title/H1, descriptive H2s, one H1, corrected hierarchy |
-| P2 structured data | Absent | Organization, co-owner roles, and WebSite JSON-LD; no invented LocalBusiness address or service area |
-| P2 conversions | Service discovery/team CTA; contact only through later slide | Direct project email CTA, contextual service/contact links, clearer inquiry instructions |
-| P2 social previews | Sparse Twitter metadata; 1536-square logo | Actual 1200×630 JPEG using the original logo, complete title/description/alt metadata |
-| P2 page images | 1,071,502 bytes across logo and four people | 90,736 bytes across compact logo and three WebP photos: 91.5% smaller |
-| P2 responsive access | Desktop sections risk clipping; mobile menu removed | Wrapping sticky navigation, 1000/620px breakpoints, single-column narrow layouts, no forced hidden content |
-| P3 errors / deployment | Default error page; repository root may expose obsolete files | Branded noindex 404; reproducible nine-file deployment allowlist |
+| Ownership | Jayna public profile and contact links; inconsistent titles | Three confirmed full-name co-owners; CEO/tribal director and risk expertise retained |
+| Positioning | Broadband-led slide presentation | Broader business-development and partnership positioning with established specialties |
+| Architecture | One slideshow; content hidden on mobile and desktop clipping risk | Crawlable static multipage site, normal scrolling and usable navigation |
+| Canonical / sitemap / robots | Canonical missing; robots/sitemap 404 | Unique apex canonicals, eleven-URL XML sitemap, permissive robots |
+| Headings / metadata | Vague headings and sparse metadata | Service-specific headings, unique page titles/descriptions, complete OG/Twitter metadata |
+| Schema | None | Organization/co-owner Person roles; WebSite; service-page Service and BreadcrumbList |
+| Links | Slide buttons / click handlers | Native route and section links, main/footer landmarks, keyboard skip/focus |
+| Images | 1,071,502 bytes across old logo/four profiles | 90,736 bytes across compact logo/three optimized WebPs (91.5% reduction) |
+| Conversion | Later-slide email only | Persistent contact navigation, business opportunity/partnership CTAs, contextual service links and delivery-gated form |
+| Deployment | Source root may expose outdated files | Allowlisted `dist` includes current assets/pages only |
 
-Existing HTTPS, the brand palette, source photographs/logo, all five service categories, engineering-referral distinction, and remaining contact/social links were preserved. Scrollable sections replace the slide presentation because the old interaction materially harms content access. No new thin service/location pages were created.
+## Conversion and form delivery
 
-## Keyword strategy and evidence
+Existing co-owner email/LinkedIn contact paths remain available. A Netlify form includes company, name, email, optional phone, industry, inquiry type and project description. Controls have labels, autocomplete, required constraints, length limits, email validation and a honeypot; no credential or upload fields. A short data-use statement explains that an inquiry does not create an engagement.
 
-Research checked current search results on October 8, 2026. This is a relevance/search-intent strategy, not a search-volume, difficulty, or competitor-ranking measurement. There is no Search Console, paid keyword database, or conversion data available. Competitors establish related vocabulary; they do not establish WMIE's capabilities.
+Netlify's documented static form handling requires automatic form detection. The form is generated hidden and is revealed only when Netlify's build processing has removed `data-netlify`, providing evidence that it has been registered. If detection is off or JavaScript is unavailable, email links remain the usable path. This prevents an unregistered form from being advertised as an operational intake channel. Actual submission storage and notification delivery have not been verified because Netlify account verification was incomplete. No test messages were sent to co-owners. Activation requires Forms detection enabled, a redeploy, registration check, approved notification setup, and a consented test inquiry.
 
-| Current destination | Recommended terms | Intent / constraint |
-|---|---|---|
-| Homepage | WMIE Group; broadband infrastructure strategic support; Oklahoma broadband consulting support | Brand and business discovery; Oklahoma means existing base, not confirmed statewide coverage |
-| `#tribal-corporate-relations` | tribal broadband partnership support; tribal relations for broadband projects; infrastructure stakeholder engagement | Organizations seeking communication/partner support; avoid claiming government authority or tribal affiliation |
-| `#insurance-surety-bonds` | broadband project insurance guidance; infrastructure surety bond requirements; BEAD insurance and bonding readiness | Commercial research; any jurisdiction/program-specific material needs licensed review and current primary sourcing |
-| `#sales-marketing` | broadband sales development support; infrastructure proposal positioning; telecom partner marketing | B2B growth support, not household internet service |
-| `#engineering-readiness` | broadband engineering referrals; infrastructure bid readiness support; technical planning partner coordination | Referral/coordination only, not direct engineering design |
-| `#bandwidth-partnerships` | bandwidth sales partnerships; broadband provider partnership development | B2B partner search, not internet plan shopping |
-| Team / contact | WMIE co-owners; contact WMIE Group | Branded trust and inquiry |
+Sources: https://docs.netlify.com/manage/forms/setup/ and https://docs.netlify.com/manage/forms/notifications/
 
-Fragment destinations are sections of one page, not independently indexable service pages. Later standalone pages should be created only after scope, expertise, evidence, and demand are confirmed. The proposed homepage uses natural service vocabulary, not repetitions of every keyword variant.
+## Technical verification and performance
 
-Potential FAQ topics: “Does WMIE perform engineering work?”, “Who handles bandwidth delivery and operations?”, and “What project details should I include in an inquiry?” These can be answered from current scope. Questions about BEAD bonding thresholds, eligible costs, or grant deadlines require up-to-date program sources and qualified review before publication.
+`npm test` passes: deterministic Node build plus Python standard-library validation of all twelve pages, eleven sitemap URLs, 244 links/assets, unique metadata/canonicals, headings, ownership, schema JSON, XML, image references/dimensions, accessible form fields, honeypot and safe fallback. `node --check` passes for build/form JavaScript; `git diff --check` passes. There is no framework dependency or TypeScript lint/type suite to run. Shared CSS is cacheable; team photos load/decode lazily with actual dimensions. The sole browser script is a small conditional form enhancement, not a page-rendering requirement.
 
-Comparable research: TICOM describes tribal broadband engineering/technical consulting; Reagan Smith/ESPS describe tribal/municipal/private-sector broadband project support; JW Surety's BEAD page targets program-specific bonding intent. WMIE's opportunity is to explain its narrower strategic/relationship/referral scope clearly, with real project evidence. Do not copy competitors' direct engineering, grant-writing, permitting, funding-success, or operational claims.
+Rendered/device and Lighthouse audits were attempted but the local Chrome process was blocked by environment socket restrictions. This does not establish a site defect. No Lighthouse score, axe result or LCP/INP/CLS measurement is claimed. Responsive breakpoints and markup are source-verified; field Core Web Vitals need real-user data. External mailbox/LinkedIn delivery is not established. JSON/XML tests are not a promise of Google rich-result eligibility or ranking.
 
-Sources:
-- Current business: https://wmiegroup.com/ and repository base commit above (HTTP/code comparison)
-- https://www.turtleislandcom.com/services/
-- https://rsenergysolutions.squarespace.com/broadband
-- https://www.jwsuretybonds.com/contractor-bonds/bead-bond
-- https://oklahoma.gov/broadband.html (program context, not WMIE affiliation)
+## Netlify, GitHub and Lovable
 
-## Performance and verification
+Live headers confirm Netlify hosting and the original README identifies project `wmie`. Proposed `netlify.toml` builds with `npm run build`, publishes `dist`, and normalizes apex and index URLs. The deployment uses no framework server or API secrets. GitHub main publishing is explicitly authorized; whether a main push triggers the existing Netlify project must be verified from live content/deployment evidence. No DNS changes or hosting disconnection are needed.
 
-`npm test` builds the allowlisted artifact and checks ownership, schema JSON, sitemap XML, metadata, 39 links, four image references/dimensions, heading hierarchy, fragment targets, and absence of runtime event handlers/hidden sections. `git diff --check` passes. There was no existing lint/type-check/test suite or typed language to run. The new build requires Node; validation requires Python 3 standard library. Neither requires installed package dependencies. Build output totals 145,186 bytes including the social image and error page.
-
-Optimizations: zero runtime JavaScript, no framework bundle, lazy decoding/loading for team images, image dimensions, WebP, small header logo, reduced expensive blur effects, and moderate asset caching without immutable names. Original static HTML already exposed text to crawlers; the old slide UI is an access/visibility problem, not proof that Google could not parse its HTML. The new site serves all text directly in HTML and does not need prerendering.
-
-Rendered local-preview verification could not complete: the cloud browser rejects localhost and the Chrome-for-Testing download returned an invalid archive. Responsive CSS and content were inspected statically, but no rendered mobile/device audit, Lighthouse score, axe audit, or LCP/INP/CLS measurement is claimed. Field Core Web Vitals require real-user data. JSON/XML parse checks are not a Google rich-result eligibility guarantee. External LinkedIn and mailbox delivery were not verified; internal file/fragment references are valid.
-
-## Local SEO and information needed
-
-Keep only the verified Oklahoma-based wording until exact geographic coverage is supplied. Do not create city pages or invent NAP. Organization schema is appropriate at present; a LocalBusiness classification/address would require verification.
-
-Please confirm official business/entity name, public phone, physical versus service-area operating model, service territory, and whether the existing @wmie.org mailboxes and LinkedIn profiles remain current. Optional: approved full names, current responsibilities/credentials, and bios for Janie/David. Needed for meaningful future SEO: real project/case-study evidence, permitted partner references, and Search Console access/data.
-
-Recommend a Google Business Profile eligibility check based on actual in-person customer operations. If eligible, verify real business name/category, public contact information, and service area; keep an unstaffed/private address hidden where appropriate. Do not create duplicate profiles or claim multiple offices. No profile changes were made.
-
-## Hosting and Lovable
-
-Keep Netlify for this change: static HTML is sufficient and avoids a framework migration. Proposed `netlify.toml` specifies `npm run build` and `dist`, keeping legacy source assets out of production. This file takes effect only when deployed. Verify dashboard overrides/base directory and production branch before publishing. No hosting disconnection, DNS edits, main pushes, or production deployment were performed.
-
-Lovable's current FAQ states that existing Git repositories cannot directly seed/connect a new project; Lovable creates a new repository. A recreation from the website/design is possible, but this would be a separate migration, requiring preservation of content, paths, contact behavior, ownership, metadata, and redirects. New Lovable projects use TanStack Start according to current documentation. Recommendation: consider it later if regular visual editing or application features justify the rebuild, not as a prerequisite for SEO.
+Keep Netlify for this implementation. Lovable's current FAQ says existing repositories cannot directly seed a project; a recreation would use a newly created repository. New projects use TanStack Start. A migration is unnecessary for this static site and should be evaluated separately only if regular visual editing or app functionality justifies it.
 
 Sources: https://docs.lovable.dev/introduction/faq and https://docs.lovable.dev/tips-tricks/external-deployment-hosting
 
-## Readiness and release gate
+## Outstanding business decisions and growth plan
 
-Source/build checks pass; production approval has not been requested or granted. The branch is ready for code review, with rendered/device testing and Netlify configuration confirmation pending before a production release.
+Confirm public phone, legal/public business name, service territory, and physical/customer-facing versus service-area model before LocalBusiness schema or location pages. Verify current mailboxes, social identities, licensing jurisdictions, Strive relationships, and permitted engineering/partner references before additional trust claims. Google Business Profile eligibility depends on real operating practices; no profile changes were made.
 
-Before release: review ownership/content, run `npm test`, inspect a non-production preview at 375/390/768/1440px with keyboard and JavaScript disabled, validate contact links/profiles and the social image, run performance/accessibility audits, and verify Netlify's active build settings. On explicit approval, merge and release through the existing process; then verify canonical/index redirects, robots/sitemap HTTP statuses, no Jayna asset exposure, and 404 status in production. Removing a legacy file does not erase externally cached copies.
-
-After release: submit sitemap in Search Console and inspect indexing. Establish impressions/clicks, nonbrand queries, inquiry conversions, and field performance baselines. Over 30–90 days, prioritize proven service demand, approved case studies, and partner/community links. Publish separate useful service pages only with substantial verified content. Evaluate qualified inquiries and query relevance rather than promising ranking or traffic increases.
+Next 30 days: verify live routes and contact delivery, submit sitemap to Search Console, inspect index coverage, and establish qualified inquiry/conversion baselines. Next 30–90 days: publish approved case studies and buyer-specific FAQs supported by real work; seek authentic partner links; refine service pages using actual nonbrand queries and inquiry quality. Test narrow paid business-development deliverables with existing-fit buyers before expanding into unfamiliar industries. Add sector/location pages only after demonstrated expertise, territory and useful content justify them.
