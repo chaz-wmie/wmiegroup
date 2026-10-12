@@ -3,8 +3,8 @@
     {
       "slug": "todd",
       "name": "Todd Segress",
-      "role": "Director of Tribal Relations",
-      "bio": "Todd Segress serves as Director of Tribal Relations and Co-Owner of WMIE. His background spans telecommunications, fiber construction, infrastructure development, tribal engagement, and regional growth strategy.",
+      "role": "Co-Owner",
+      "bio": "Todd Segress is a Co-Owner of WMIE. His background spans telecommunications, fiber construction, infrastructure development, tribal engagement, and regional growth strategy.",
       "width": 561,
       "height": 740
     },
@@ -176,6 +176,39 @@
         [
           "Connected to wider business goals",
           "If the opportunity also involves proposal positioning, infrastructure readiness, bandwidth partnerships, or commercial risk requirements, those needs can be discussed alongside stakeholder alignment. WMIE’s positioning remains broader than tribal relations alone."
+        ]
+      ]
+    },
+    {
+      "path": "/services/data-center-infrastructure/",
+      "name": "AI & Data Center Infrastructure",
+      "description": "Supporting hyperscale and enterprise data center development through power and fiber coordination, site evaluation, and development partnerships.",
+      "lead": "Align power, fiber connectivity, and site development for AI computing and enterprise data facilities.",
+      "cta": "Discuss Your Data Center Project",
+      "sections": [
+        [
+          "Power infrastructure coordination",
+          "WMIE supports utility engagement and coordination around power requirements, availability evaluation, and infrastructure planning. We help bring developers, utilities, and technical providers into the conversation so project needs can be evaluated against site conditions and delivery requirements."
+        ],
+        [
+          "Fiber connectivity",
+          "We support carrier coordination and evaluation of connectivity requirements for hyperscale and enterprise data facilities. Discussions can cover capacity needs, diverse fiber routes, and the connections a project depends on, with feasibility and service terms established by the relevant providers."
+        ],
+        [
+          "Site evaluation & development",
+          "WMIE helps coordinate evaluation of land suitability, infrastructure access, development constraints, and stakeholder requirements. Site development discussions bring together landowners, developers, utilities, carriers, and qualified delivery partners around the project’s stage and priorities."
+        ],
+        [
+          "Experienced engineering relationships",
+          "We work with experienced engineers in this space to support power, fiber, and site development conversations. WMIE provides strategic coordination and development support; engineering providers deliver technical evaluation, planning, design, and other engineering services under an agreed scope."
+        ],
+        [
+          "Hyperscale & enterprise facilities",
+          "AI data center infrastructure and hyperscale data center development require alignment between computing needs, power infrastructure, fiber connectivity, and site readiness. WMIE supports that coordination for developers pursuing hyperscale and enterprise data facilities."
+        ],
+        [
+          "Development partnerships",
+          "We help align the organizations involved in a development opportunity, connecting developers with utilities, carriers, landowners, experienced engineers, and qualified delivery partners. Share the project location, current stage, anticipated power and connectivity needs, site information, and timeline to begin a focused conversation."
         ]
       ]
     }
