@@ -13,7 +13,7 @@ Requires Node for the build and Python 3 standard library for validation:
 npm test
 ```
 
-The build generates twelve pages (eleven indexable routes plus a noindex acknowledgment page), a 404 page, sitemap/robots, and an explicit asset allowlist in `dist/`. Original photographs, historical files, source data, and documentation are excluded from deployment. No installed packages are needed.
+The build generates thirteen pages (twelve indexable routes plus a noindex acknowledgment page), a 404 page, sitemap/robots, and an explicit asset allowlist in `dist/`. Original photographs, historical files, source data, and documentation are excluded from deployment. No installed packages are needed.
 
 ## Contact delivery
 

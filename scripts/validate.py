@@ -45,6 +45,8 @@ for f in root.rglob('index.html'):
  roles=p.scripts[0]['@graph'][0]['member']
  assert [r['member']['name'] for r in roles]==['Todd Segress','Janie Meadows','David Stephens']
  assert all(r['roleName']=='Co-Owner' for r in roles)
+ assert roles[0]['member']['jobTitle']=='Co-Owner'
+ assert 'Director of Tribal Relations' not in h
  for key in ['description','og:title','og:description','og:url','og:image','twitter:title','twitter:description','twitter:card']:
   assert p.meta.get(key),(f,key)
  titles.append(p.title);descs.append(p.meta['description'])
@@ -78,3 +80,16 @@ assert not any('jayna' in str(f).lower() for f in root.rglob('*'))
 assert (root/'assets/social-preview.jpg').read_bytes()[:2]==b'\xff\xd8'
 assert 'data-netlify' in (root/'assets/contact.js').read_text()
 print(f'PASS: {len(parsed)} pages, {len(urls)} indexable URLs, {links} links/assets, unique metadata, ownership, headings, schema, XML sitemap, accessible form fields, honeypot and safe fallback.')
+
+# Homepage has one concise pillar overview; detailed services stay on their routes.
+home=(root/'index.html').read_text()
+pillars=re.search(r'<section class="section" id="services">(.*?)</section>',home,re.S).group(1)
+assert pillars.count('<article class="tile">')==4
+assert '/services/data-center-infrastructure/' in pillars
+assert 'id="sales-marketing"' not in home and 'id="bandwidth-partnerships"' not in home
+assert home.count('>Explore Services</a>')==1
+new=parsed['/services/data-center-infrastructure/']
+assert '/contact/?service=data-center-infrastructure' in new.links
+assert 'experienced engineers' in (root/'services/data-center-infrastructure/index.html').read_text()
+assert 'AI &amp; Data Center Infrastructure' in (root/'contact/index.html').read_text()
+print('PASS: four homepage pillars, no repeated service sections, Todd title, data center CTA and inquiry option.')
